@@ -17,7 +17,7 @@ int intractv(info_t *info)
  * @delim: the delimeter string
  * Return: 1 if true, 0 if false
  */
-int isDelim(char a, char *delim)
+int isdelim(char a, char *delim)
 {
 	while (*delim)
 		if (*delim++ == a)
@@ -31,7 +31,7 @@ int isDelim(char a, char *delim)
  * Return: 1 if c is alphabetic, 0 otherwise
  */
 
-int _isAlpha(int a)
+int _isalpha(int a)
 {
 	if ((a >= 'a' && a <= 'z') || (a >= 'A' && a <= 'Z'))
 		return (1);
